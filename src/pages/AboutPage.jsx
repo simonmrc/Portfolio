@@ -10,9 +10,9 @@ export default function AboutPage() {
   ];
 
   const experience = [
-    { years: '2020 - Présent', role: 'Senior Sysadmin', company: 'TechCorp Inc' },
-    { years: '2017 - 2020', role: 'Administrateur Système', company: 'Digital Solutions' },
-    { years: '2015 - 2017', role: 'Support Technique', company: 'WebServices Pro' },
+    { years: '2023 - Présent', role: 'Administrateur Systèmes/Réseaux', company: 'Imagine Soft' },
+    { years: '2021 - Présent', role: 'Manager', company: 'Steak n Shake, Borély' },
+    { years: '2017-2020', role: 'Baccalauréat ES', company: 'Honoré Daumier,13008' },
   ];
 
   const container = {
