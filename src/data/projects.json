@@ -1,0 +1,62 @@
+[
+  {
+    "id": "proj-001",
+    "title": "Dashboard Analytics",
+    "description": "Interface de visualisation de données temps réel pour client e-commerce avec charts interactifs",
+    "techs": ["React", "Chart.js", "Tailwind CSS"],
+    "type": "Stage",
+    "category": "web",
+    "liveUrl": "https://dashboard-analytics-demo.vercel.app",
+    "imageUrl": "/images/dashboard.png"
+  },
+  {
+    "id": "proj-002",
+    "title": "Système de Monitoring Infrastructure",
+    "description": "Application web pour monitorer serveurs Linux/Windows, métriques CPU, RAM, disque en temps réel",
+    "techs": ["React", "Node.js", "WebSocket", "Chart.js"],
+    "type": "Personnel",
+    "category": "web",
+    "liveUrl": "https://github.com/simonmrc/monitoring-infra",
+    "imageUrl": "/images/monitoring.png"
+  },
+  {
+    "id": "proj-003",
+    "title": "Configuration Ansible - Playbooks Prod",
+    "description": "Suite de playbooks Ansible pour provisionning automatisé de 50+ serveurs Linux en production",
+    "techs": ["Ansible", "Bash", "Linux", "YAML"],
+    "type": "Professionnel",
+    "category": "devops",
+    "liveUrl": "https://github.com/simonmrc/ansible-playbooks",
+    "imageUrl": "/images/ansible.png"
+  },
+  {
+    "id": "proj-004",
+    "title": "Terraform AWS Infrastructure",
+    "description": "Infrastructure as Code pour déployer stack complète AWS: VPC, EC2, RDS, S3, CloudFront",
+    "techs": ["Terraform", "AWS", "Bash"],
+    "type": "Professionnel",
+    "category": "cloud",
+    "liveUrl": "https://github.com/simonmrc/terraform-aws-prod",
+    "imageUrl": "/images/terraform.png"
+  },
+  {
+    "id": "proj-005",
+    "title": "App Mobile Inventaire",
+    "description": "Application React Native pour gestion d'inventaire avec barcode scanning et sync offline",
+    "techs": ["React Native", "Expo", "Firebase", "Redux"],
+    "type": "Stage",
+    "category": "mobile",
+    "liveUrl": "https://github.com/simonmrc/inventory-app",
+    "imageUrl": "/images/inventory-app.png"
+  },
+  {
+    "id": "proj-006",
+    "title": "Design System Figma",
+    "description": "Système de design complet avec 200+ components, guidelines et documentation interactive",
+    "techs": ["Figma", "CSS", "Design System"],
+    "type": "Personnel",
+    "category": "design",
+    "liveUrl": "https://figma.com/file/abc123",
+    "imageUrl": "/images/design-system.png"
+  }
+]
