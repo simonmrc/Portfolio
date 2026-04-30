@@ -36,7 +36,7 @@ export default function AboutPage() {
         >
           <h1 className="text-4xl md:text-5xl font-bold mb-6">À propos de moi</h1>
           <p className="text-lg text-gray-300">
-            Passionné par les technologies, avec plus de 10 ans d'expérience dans l'administration système et réseau.
+            Passionné par les technologies, avec plus de 3 ans d'expérience dans l'administration système et réseau.
           </p>
         </motion.section>
 
