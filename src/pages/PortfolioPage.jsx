@@ -162,7 +162,7 @@ export default function PortfolioPage() {
         )}
 
         {!loading && error && (
-          <div className="max-w-2xl mx-auto p-6 rounded-lg bg-red-500/10 border border-red-500/30 text-red-200 text-center">
+          <div className="max-w-2xl mx-auto mb-8 p-6 rounded-lg bg-red-500/10 border border-red-500/30 text-red-200 text-center">
             <p className="font-semibold mb-2">Erreur de chargement GitHub</p>
             <p className="text-sm mb-4">{error}</p>
             <button
@@ -174,13 +174,13 @@ export default function PortfolioPage() {
           </div>
         )}
 
-        {!loading && !error && visibleProjects.length === 0 && (
+        {!loading && visibleProjects.length === 0 && (
           <div className="text-center text-gray-400 py-12">
             Aucun projet ne correspond à ta recherche.
           </div>
         )}
 
-        {!loading && !error && visibleProjects.length > 0 && (
+        {!loading && visibleProjects.length > 0 && (
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
