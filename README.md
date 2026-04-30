@@ -26,7 +26,7 @@ Objectif : une vitrine claire, responsive, avec une **galerie de projets hybride
   - envoi via **Formspree** (URL stockée dans une variable d’environnement)
 - **vCard + QR code**:
   - fichier `public/contact.vcf`
-  - QR code affiché dans le **footer** et sur la page **Contact**
+  - QR code affiché dans le **footer** et sur la page **Contact**S
   - bouton de téléchargement de la vCard
 - **Navigation**:
   - `react-router-dom` v6
@@ -68,8 +68,6 @@ Crée/complète `portfolio/.env` :
 VITE_FORMSPREE_URL=https://formspree.io/f/xxxxxxx
 ```
 
-Important :
-- sur **Vercel**, il faut aussi définir `VITE_FORMSPREE_URL` dans **Settings → Environment Variables** (pas seulement en local), puis **redeploy**.
 
 ## Données projets manuels
 
@@ -91,11 +89,3 @@ Après déploiement, l’URL est :
 
 Le QR code pointe vers cette URL.
 
-## Build
-
-```bash
-npm run build
-npm run preview
-```
-
-"# Portfolio" 
